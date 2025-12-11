@@ -10,15 +10,27 @@
     "tauri": "tauri"
   },
   "dependencies": {
+    "@nuxt/ui": "^4.2.1",
     "@tauri-apps/api": "^2.9.1",
     "@tauri-apps/plugin-opener": "^2.5.2",
-    "vue": "^3.5.25"
+    "@vueuse/core": "^14.1.0",
+    "pinia": "^3.0.4",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3"
   },
   "devDependencies": {
+    "@iconify/vue": "^5.0.0",
+    "@tailwindcss/vite": "^4.1.17",
     "@tauri-apps/cli": "^2.9.6",
     "@vitejs/plugin-vue": "^6.0.2",
+    "tailwindcss": "^4.1.17",
     "typescript": "~5.9.3",
     "vite": "^7.2.7",
     "vue-tsc": "^3.1.8"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": "^8.0.0-beta.1"
+    }
   }
 }
